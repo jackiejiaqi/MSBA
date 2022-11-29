@@ -1,6 +1,6 @@
-Labs <- scan(file="ProjectTrainingData.csv",what="xx",sep=",",nlines=1)
+Labs <- scan(file="Project Data/ProjectTrainingData.csv",what="xx",sep=",",nlines=1)
 Data <- matrix(
-            scan(file="ProjectTrainingData.csv",what="xx",sep=",",skip=1),
+            scan(file="Project Data/ProjectTrainingData.csv",what="xx",sep=",",skip=1),
             ncol=length(Labs),byrow=T)
 colnames(Data) <- Labs
 
